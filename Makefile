@@ -3,8 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-APP_IMAGE := "ghcr.io/alexandreroman/grype-offline-db"
-BUNDLE_IMAGE := "ghcr.io/alexandreroman/grype-offline-db-bundle"
+APP_IMAGE := "quay.io/armosec/devops:grype-offline-db"
+BUNDLE_IMAGE := "quay.io/armosec/devops:grype-offline-db-bundle"
 GRYPE_DB_URL := "https://toolbox-data.anchore.io/grype/databases/listing.json"
 
 all: install
