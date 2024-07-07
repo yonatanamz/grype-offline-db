@@ -5,7 +5,7 @@ on:
     branches:
     - main
     - features/**
-  dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
